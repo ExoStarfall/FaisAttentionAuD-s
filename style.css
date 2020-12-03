@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Texturina:ital,wght@1,100&display=swap");
+
+/* Desktop */
+@media only screen and (min-width: 767px) {
+  * {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 3rem;
+    font-family: "Texturina", serif;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffefd6;
+  }
+  p{text-align: center; 
+    margin-top: 1rem;
+  }
+  #formulaire > form > input {
+    width: 3rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+  }
+  body > form > label {
+    height: 2rem;
+  }
+  body > form > input {
+    width: 5rem;
+    height: 2rem;
+    border-radius: 50%;
+    font-size: 1rem;
+    text-align: center;
+  }
+  .lancer {
+    border-radius: 15px;
+    background-color: coral;
+    margin-top: 1rem;
+    font-family: "Texturina", serif;
+    font-size: 10px;
+  }
+  .btnrel {
+    margin-bottom: 3rem;
+    font-family: "Texturina";
+    color: coral;
+  }
+  .btnacc {
+    height: 2rem;
+    width: 5rem;
+    font-size: 1rem;
+    border-radius: 50%;
+    font-family: "Texturina";
+    margin-left: 0.6rem;
+    margin-top: 1rem;
+    color: coral;
+  }
+
+}
+
+/* Mobile */
+@media only screen and (min-width: 360px) and (max-width: 767px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 2rem;
+    font-family: "Texturina", serif;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffefd6;
+  }
+  p{text-align: center; margin-top: 1rem;}
+  #formulaire > form > input {
+    width: 3rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    text-align: center;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 3rem;
+  }
+  body > form > label {
+    height: 1rem;
+  }
+  body > form > input {
+    width: 5rem;
+    height: 2rem;
+    border-radius: 50%;
+    font-size: 1rem;
+    text-align: center;
+  }
+  .lancer {
+    border-radius: 15px;
+    background-color: coral;
+    margin-top: 1rem;
+    font-family: "Texturina", serif;
+  }
+  .btnrel {
+    margin-bottom: 3rem;
+    font-family: "Texturina";
+    background-color: coral;
+  }
+  .btnacc {
+    height: 2rem;
+    width: 5rem;
+    font-size: 1rem;
+    border-radius: 50%;
+    font-family: "Texturina";
+    margin-top: 1rem;
+    background-color: coral;
+  }
+}
